@@ -1,0 +1,75 @@
+:root{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+.container{
+    background-color: rgb(128, 121, 119);
+    width: 300px;
+    margin: 0 auto 200px;
+    padding: 30px;
+}
+
+.a{
+    background-image: url(./images/Anders_Askevold__Norwegian_Fjord_Landscape.png);
+}
+.b{
+    background-image: url(./images/Anderson_Sophie__The_Time_Of_The_Lilacs.png);
+}
+.c{
+    background-image: url(./images/Blake__the_Ancient_of_Days.png);
+}
+.d{
+    background-image: url(./images/Bloch__Sermon_on_the_Mount.png);
+}
+.e{
+    background-image: url(./images/Boris_Kustodiyev__Morning.png);
+}
+.f{
+    background-image: url(./images/Cole_Thomas__Cora_Kneeling_\(from_Last_of_the_Mohicans\).png);
+}
+.g{
+    background-image: url(./images/Courbet__the_Stormy_Sea.png);
+}
+.h{
+    background-image: url(./images/David__Death_of_Socrates.png);
+}
+.i{
+    background-image: url(./images/Da_Vinci___Last_Supper.png);
+}
+.j{
+    background-image: url(./images/Degas__Dancing_Class.png);
+}
+
+span{
+    display: none;
+}
+p:hover{
+    cursor: pointer;
+}
+p:hover span{
+    display: block;
+}
+
+div{
+    transition: 500ms;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+div:hover{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    transition: 500ms;
+}
